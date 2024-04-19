@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+    .nav-container {
+       display:none;
+    }
+
+    #hamburger-nav {
+        display:flex;
+    }
+
+    #profile, .section-text {
+        display:block;
+        
+   }
+
+   section {
+    height:fit-content;
+   }
+
+   section {
+    margin: 0 5%;
+   }
+
+   
+   .section-pic-container {
+      position:absolute;
+      top:80%;
+      left:70%;
+      transform: translateX(-45%);
+      height:fit-content;
+   }
+
+}
+
+@media screen and (max-width: 1400px) {
+   #profile {
+    height:83vh;
+    margin-bottom:6rem;
+   }
+
+ 
+
+   
+}
